@@ -9,9 +9,10 @@
  * Return: 1 if the letter is uppercase and 0 if lowercase.
  */
 
-int _isupper(int c);
+int _isupper(int c)
+
 {
-	if ((c >= 65) && (c <= 122))
+	if ((c >= 'A') && (c <= 'Z'))
 	{
 		return (1);
 	}
