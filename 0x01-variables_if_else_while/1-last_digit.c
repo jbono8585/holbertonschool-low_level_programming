@@ -28,12 +28,18 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	a = n % 10;
 
-	if (n > 5)
+	if (a > 5)
+	{
 		printf("%s %i %s %i and is greater than 5\n", last, n, st, a);
-	else if (n == 0)
+	}
+	else if (a == 0)
+	{
 		printf("%s %i %s %i and is 0\n", last, n, st, a);
-		else
+	}
+	else
+	{
 			printf("%s %i %s %i and is less than 6 and not 0\n", last, n, st, a);
+	}
 	return (0);
 
 }
