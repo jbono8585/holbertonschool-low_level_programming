@@ -28,11 +28,11 @@ int main(void)
 	a = n % 10;
 
 	if (n > 5)
-		printf("%s %i is %i and is greater than 5\n", last, a, n);
+		printf("%s %i is %i and is greater than 5\n", last, n, a);
 	else if (n == 0)
-		printf("%s %i is %i and is 0\n", last, a, n);
+		printf("%s %i is %i and is 0\n", last, n, a);
 		else
-			printf("%s %i is %i and is less than 6 and not 0\n", last, a, n);
+			printf("%s %i is %i and is less than 6 and not 0\n", last, n, a);
 	return (0);
 
 }
