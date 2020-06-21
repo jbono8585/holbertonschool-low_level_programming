@@ -21,6 +21,7 @@ int main(void)
 
 
 	char last[] = "Last digit of";
+	char st[] = "is";
 
 	srand(time(0));
 
@@ -28,11 +29,11 @@ int main(void)
 	a = n % 10;
 
 	if (n > 5)
-		printf("%s %i is %i and is greater than 5\n", last, n, a);
+		printf("%s %i %s %i and is greater than 5\n", last, n, st, a);
 	else if (n == 0)
-		printf("%s %i is %i and is 0\n", last, n, a);
+		printf("%s %i %s %i and is 0\n", last, n, st, a);
 		else
-			printf("%s %i is %i and is less than 6 and not 0\n", last, n, a);
+			printf("%s %i %s %i and is less than 6 and not 0\n", last, n, st, a);
 	return (0);
 
 }
