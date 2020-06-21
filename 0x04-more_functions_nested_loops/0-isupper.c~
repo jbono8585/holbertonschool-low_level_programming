@@ -1,0 +1,23 @@
+#include "holberton.h"
+
+/**
+ * Desciption: Write a nested loop that checks
+ * for upper or lowercase alphabet.
+ *
+ *@c: is a letter.
+ * Return (0);
+ */
+
+int _isupper(int c);
+
+{
+int c;
+
+for (c = 'A'; c <= 'Z'; c++)
+{
+for (c = 'a'; c <= 'z'; c++)
+_putchar(0);
+}
+_putchar(1);
+return (0);
+}
