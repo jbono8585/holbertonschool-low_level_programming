@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * print_numbers - prints numbers 1 through 9 followed by a new line
@@ -18,8 +17,8 @@ void print_numbers(void)
 
 	for (d = 0; d <= 9; d++)
 		{
-			putchar(d + '0');
+			_putchar(d + '0');
 		}
 
-			putchar('\n');
+			_putchar('\n');
 }
