@@ -19,6 +19,7 @@ void print_most_numbers(void)
 		while (g != 2 && g != 4)
 		{
 			_putchar(g + '0');
+			g++;
 		}
 		_putchar('\n');
 	}
