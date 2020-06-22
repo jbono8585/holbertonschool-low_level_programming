@@ -1,0 +1,19 @@
+#include "holberton.h"
+
+/**
+ * print_line - print a straight line
+ *
+ * @n: length of line.
+ *
+ *
+ */
+
+void print_line(int n)
+{
+	while (n > 0)
+	{
+		_putchar('_');
+		n--;
+	}
+	_putchar(10);
+}
