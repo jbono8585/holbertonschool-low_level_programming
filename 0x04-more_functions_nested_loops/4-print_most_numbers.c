@@ -16,11 +16,11 @@ void print_most_numbers(void)
 	g = 0;
 	while (g <= 9)
 	{
-		while (g != 2 && g != 4)
+		if (g != 2 && g != 4)
 		{
 			_putchar(g + '0');
-			g++;
 		}
-		_putchar('\n');
+			g++;
 	}
+		_putchar('\n');
 }
