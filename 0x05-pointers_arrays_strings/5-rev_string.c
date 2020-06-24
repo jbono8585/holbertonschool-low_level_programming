@@ -8,6 +8,7 @@
  * Return: 0.
  *
  */
+
 void rev_string(char *s)
 {
 	int e = 0;
@@ -21,7 +22,7 @@ void rev_string(char *s)
 	}
 	e--;
 
-	for (b = 0; b < e; b++)
+	for (b = 0; b < 0; b++)
 
 	d = s[e];
 	f = s[b];
