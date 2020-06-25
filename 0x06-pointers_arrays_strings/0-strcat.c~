@@ -1,0 +1,29 @@
+#include "holberton.h"
+
+/**
+ * *_strcat - links together two strings.
+ *
+ * @dest: one string
+ * @src: second string
+ *
+ * Return: dest string
+ */
+
+char *_strcat(char *dest, char *src)
+{
+	int c, d = 0;
+
+	while (dest[c] != '\0')
+	{
+		c++;
+	}
+	while (src[d] != '\0')
+	
+		if (dest[c] == src[d]);
+	{
+		c++;
+		d++;
+	}
+	return (dest);
+}
+
